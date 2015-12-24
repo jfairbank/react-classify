@@ -2,8 +2,8 @@ const takeNoArgs = (method) => function() {
   return method(this.props);
 };
 
-const takeFirstArg = (method) => function(nextProps) {
-  return method(this.props, nextProps);
+const takeFirstArg = (method) => function(arg1) {
+  return method(this.props, arg1);
 };
 
 const methodCreators = {
