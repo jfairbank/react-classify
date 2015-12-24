@@ -1,5 +1,7 @@
 # react-classify
 
+[![Circle CI](https://circleci.com/gh/jfairbank/react-classify.svg?style=svg)](https://circleci.com/gh/jfairbank/react-classify)
+
 Wrap functional React components with a component class, so you can use
 lifecycle hook functions and have a backing instance for testing or other
 purposes.
