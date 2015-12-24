@@ -28,7 +28,7 @@ const FunctionalNameTag = ({ name }) => (
   <div>Hello, my name is {name}</div>
 );
 
-const NameTag = classify(NameTag, { componentWillMount });
+const NameTag = classify(FunctionalNameTag, 'NameTag', { componentWillMount });
 
 render(
   <NameTag name="Jeremy"/>,
