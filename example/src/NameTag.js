@@ -23,7 +23,7 @@ const NameTag = ({ name }) => (
   <div>Hello, my name is {name}</div>
 );
 
-export default classify(NameTag, {
+export default classify(NameTag, 'NameTag', {
   componentWillMount,
   componentDidMount,
   componentWillReceiveProps,

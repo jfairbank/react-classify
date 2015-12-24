@@ -8,7 +8,7 @@
     "clean": "rm -rf lib",
     "example": "cd example && webpack-dev-server --content-base public --inline --hot --host 127.0.0.1 --port 8080",
     "prepublish": "npm run clean && npm run build",
-    "test": "mocha --compilers js:babel-register"
+    "test": "mocha --compilers js:babel-register test/tests.js"
   },
   "repository": {
     "type": "git",

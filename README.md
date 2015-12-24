@@ -45,6 +45,7 @@ render(
 ```js
 classify(
   componentFunction: (props: Object) => ReactElement,
+  [displayName: string],
   [methods: {
     [componentWillMount: (props: Object) => void],
     [componentDidMount: (props: Object) => void],
@@ -55,6 +56,21 @@ classify(
     [componentWillUnmount: (props: Object) => void]
   }]
 ): React.Component
+```
+
+### `displayName`
+
+You can provide a `displayName` for your wrapped component for debugging
+purposes via the second argument.
+
+```js
+const FunctionalNameTag = ({ name }) => (
+  <div>Hello, my name is {name}</div>
+);
+
+const NameTag = classify(FunctionalNameTag, 'NameTag');
+
+console.assert(NameTag.displayName === 'NameTag');
 ```
 
 ### Lifecycle Functions

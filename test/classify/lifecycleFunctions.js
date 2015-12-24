@@ -1,14 +1,11 @@
 import React from 'react';
-import chai, { expect } from 'chai';
+import { expect } from 'chai';
 import { describeWithDOM, mount, shallow } from 'enzyme';
 import ReactDOM from 'react-dom';
 import sinon from 'sinon';
-import sinonChai from 'sinon-chai';
-import classify from '../src/classify';
+import classify from '../../src/classify';
 
-chai.use(sinonChai);
-
-describeWithDOM('classify', () => {
+describeWithDOM('lifecycleFunctions', () => {
   it('receives props', () => {
     const content = 'hello';
     const [Text, WrappedText] = createTextComponent();
