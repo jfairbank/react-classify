@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Classify functional React components to use component lifecycle hooks",
   "main": "lib/classify.js",
+  "files": [
+    "src",
+    "lib"
+  ],
   "scripts": {
     "build": "babel src --out-dir lib",
     "clean": "rm -rf lib",
