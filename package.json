@@ -31,8 +31,8 @@
     "url": "https://github.com/jfairbank/react-classify/issues"
   },
   "homepage": "https://github.com/jfairbank/react-classify#readme",
-  "dependencies": {
-    "react": "^0.14.3"
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
@@ -44,8 +44,9 @@
     "chai": "^3.4.1",
     "enzyme": "^1.2.0",
     "mocha": "^2.3.4",
+    "react": "^15.2.1",
     "react-addons-test-utils": "^0.14.3",
-    "react-dom": "^0.14.3",
+    "react-dom": "^15.2.1",
     "react-redux": "^4.0.2",
     "redux": "^3.0.5",
     "sinon": "^1.17.2",
