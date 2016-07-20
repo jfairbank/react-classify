@@ -1,3 +1,7 @@
+### v1.1.0
+
+* Add support for React 15
+
 ### v1.0.1 - 2015-12-28
 
 **Bug Fixes:**

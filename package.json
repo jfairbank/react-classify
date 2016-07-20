@@ -1,6 +1,6 @@
 {
   "name": "react-classify",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Classify functional React components to use component lifecycle hooks",
   "main": "lib/classify.js",
   "files": [
